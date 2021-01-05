@@ -1,0 +1,9 @@
+Her er de kildene vi har brukt for nettsiden:
+https://www.brilleland.no/
+https://www.w3schools.com/
+https://www.misterspex.no/briller
+https://www.interoptik.no/optikerbloggen/innlegg/var-obs-pa-gra-star/
+https://console.developers.google.com/apis/credentials?project=brilleland
+https://www.w3schools.com/graphics/google_maps_intro.asp
+https://www.tutorialrepublic.com/html-tutorial/html5-geolocation.php
+

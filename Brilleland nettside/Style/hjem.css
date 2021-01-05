@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+}
+.mainText{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    padding: 0;
+    margin: 0;
+    color:#ffff;
+    font-size: 20px;
+}
+
+.container2{
+    display: inline-flex;
+    flex-direction: row;
+}
+.paragraftext{
+    margin: 5px;
+    padding: 0px 15px 10px 15px;
+    color: #136e3e;
+    background-color:  #d4f0d9;;
+}
+.infotext{
+    font-size: 20px;
+}
+.slider {
+    background-image: cover;
+    width: 100%;
+    display: none;
+}
+
+/*
+ mobil: Skjermbredde 641px
+*/
+@media only screen and (max-width: 641px) {
+    .container2{
+        flex-direction: column;
+    }
+    .container{
+        min-height: 25vh;
+    }
+    .undertext{
+        display: none;
+    }
+    .mainText{
+        position: absolute;
+        top: 12%;
+        left: 20%;
+        font-size: 15px;
+    }
+  }
+
+  /*
+  Tablet: Skjermbredde mellom 1024px og 641px
+*/
+@media (max-width:1024px) and (min-width: 641px) {
+    .container2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainText{
+        position: absolute;
+        top: 15%;
+        left: 1%;
+        font-size: 20px;
+    }
+  }
